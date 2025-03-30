@@ -13,6 +13,7 @@ local Window = Library:CreateWindow({
 })
 
 getgenv().MainTab = Window:AddTab('Main')
+getgenv().MainTab = Window:AddTab('Visuals')
 getgenv().MiscTab = Window:AddTab('Misc')
 
 local MiscellaneousGroup = getgenv().MiscTab:AddRightGroupbox('Miscellaneous')
