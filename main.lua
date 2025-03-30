@@ -22,7 +22,7 @@ MiscellaneousGroup:AddButton("Unload", function()
 end)
 
 MiscellaneousGroup:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", {
-    Default = "End",
+    Default = "J",
     NoUI = true,
     Text = "Menu keybind"
 })
